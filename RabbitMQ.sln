@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{EC819087-1729-4751-BE3E-80ECBC0E84C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.HelloWorld", "1.HelloWorld", "{A0AA7B8A-D5AF-4F68-88C3-E2B4A11E3C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CE2C478-9113-4544-BA79-26E449929C78}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{A496B3E7-4164-43AC-AE06-CC2ECD10F659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.WorkQueues", "2.WorkQueues", "{D6D2BC24-A8B8-45EE-AC87-482F40BC29B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "2.WorkQueues\NewTask\NewTask.csproj", "{D1F734AA-98A9-4288-A1CB-ADFB1963C439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "2.WorkQueues\Worker\Worker.csproj", "{3A37BC66-E3D8-46D6-8A97-077E6ACB4B40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Publish&Subscribe", "3.Publish&Subscribe", "{F2AF98C4-F3D2-4FD1-A159-38D6E823AA97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "3.Publish&Subscribe\EmitLog\EmitLog.csproj", "{9841DB28-0BF7-43AC-8674-9A164525D6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogs", "3.Publish&Subscribe\ReceiveLogs\ReceiveLogs.csproj", "{79C547C5-E339-4939-97EE-3FC0C104B6F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Routing", "4.Routing", "{94391A2C-A9D5-479B-9248-19D4D49B8636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirect", "4.Routing\EmitLogDirect\EmitLogDirect.csproj", "{E6F31C4D-2640-4325-8297-C27418BF11C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsDirect", "4.Routing\ReceiveLogsDirect\ReceiveLogsDirect.csproj", "{9166B075-4B26-4782-83B9-EF0EBE23EA8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC819087-1729-4751-BE3E-80ECBC0E84C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC819087-1729-4751-BE3E-80ECBC0E84C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC819087-1729-4751-BE3E-80ECBC0E84C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC819087-1729-4751-BE3E-80ECBC0E84C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A496B3E7-4164-43AC-AE06-CC2ECD10F659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A496B3E7-4164-43AC-AE06-CC2ECD10F659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A496B3E7-4164-43AC-AE06-CC2ECD10F659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A496B3E7-4164-43AC-AE06-CC2ECD10F659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F734AA-98A9-4288-A1CB-ADFB1963C439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F734AA-98A9-4288-A1CB-ADFB1963C439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F734AA-98A9-4288-A1CB-ADFB1963C439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F734AA-98A9-4288-A1CB-ADFB1963C439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A37BC66-E3D8-46D6-8A97-077E6ACB4B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A37BC66-E3D8-46D6-8A97-077E6ACB4B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A37BC66-E3D8-46D6-8A97-077E6ACB4B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A37BC66-E3D8-46D6-8A97-077E6ACB4B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9841DB28-0BF7-43AC-8674-9A164525D6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9841DB28-0BF7-43AC-8674-9A164525D6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9841DB28-0BF7-43AC-8674-9A164525D6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9841DB28-0BF7-43AC-8674-9A164525D6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C547C5-E339-4939-97EE-3FC0C104B6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C547C5-E339-4939-97EE-3FC0C104B6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C547C5-E339-4939-97EE-3FC0C104B6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C547C5-E339-4939-97EE-3FC0C104B6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F31C4D-2640-4325-8297-C27418BF11C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F31C4D-2640-4325-8297-C27418BF11C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F31C4D-2640-4325-8297-C27418BF11C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F31C4D-2640-4325-8297-C27418BF11C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9166B075-4B26-4782-83B9-EF0EBE23EA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9166B075-4B26-4782-83B9-EF0EBE23EA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9166B075-4B26-4782-83B9-EF0EBE23EA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9166B075-4B26-4782-83B9-EF0EBE23EA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC819087-1729-4751-BE3E-80ECBC0E84C6} = {A0AA7B8A-D5AF-4F68-88C3-E2B4A11E3C44}
+		{A496B3E7-4164-43AC-AE06-CC2ECD10F659} = {A0AA7B8A-D5AF-4F68-88C3-E2B4A11E3C44}
+		{D1F734AA-98A9-4288-A1CB-ADFB1963C439} = {D6D2BC24-A8B8-45EE-AC87-482F40BC29B7}
+		{3A37BC66-E3D8-46D6-8A97-077E6ACB4B40} = {D6D2BC24-A8B8-45EE-AC87-482F40BC29B7}
+		{9841DB28-0BF7-43AC-8674-9A164525D6E1} = {F2AF98C4-F3D2-4FD1-A159-38D6E823AA97}
+		{79C547C5-E339-4939-97EE-3FC0C104B6F7} = {F2AF98C4-F3D2-4FD1-A159-38D6E823AA97}
+		{E6F31C4D-2640-4325-8297-C27418BF11C8} = {94391A2C-A9D5-479B-9248-19D4D49B8636}
+		{9166B075-4B26-4782-83B9-EF0EBE23EA8C} = {94391A2C-A9D5-479B-9248-19D4D49B8636}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B28D144-A7BB-448F-A6EC-3DC572867A9E}
+	EndGlobalSection
+EndGlobal
